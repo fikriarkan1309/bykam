@@ -1,0 +1,6 @@
+{
+  "name": "Bykam - Bekam Home Service",
+  "description": "Layanan bekam home-service premium, steril, dan profesional langsung di rumah Anda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
