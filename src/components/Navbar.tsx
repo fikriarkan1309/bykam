@@ -46,9 +46,12 @@ export default function Navbar({
           onClick={() => setCurrentPage('landing')}
           className="flex items-center gap-2 group text-left cursor-pointer focus:outline-hidden"
         >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary to-primary-hover flex items-center justify-center text-white shadow-md shadow-primary/10 group-hover:scale-105 transition-transform duration-300">
-            <span className="font-sans font-bold text-lg tracking-wider">BK</span>
-          </div>
+          <img 
+            src="/favicon.png" 
+            alt="Logo BYKAM" 
+            className="w-10 h-10 object-contain group-hover:scale-105 transition-transform duration-300" 
+            referrerPolicy="no-referrer"
+          />
           <div>
             <h1 className="font-sans font-bold text-xl leading-none text-slate-900 dark:text-white tracking-tight flex items-center gap-1">
               BYKAM
