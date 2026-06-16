@@ -8,7 +8,7 @@ interface HeroProps {
 
 export default function Hero({ onStartBooking }: HeroProps) {
   // Use our beautifully generated premium banner
-  const heroImgUrl = '/src/assets/images/bykam_hero_banner_1781563134535.jpg';
+  const heroImgUrl = '/public/hero-banner.jpg';
 
   return (
     <section id="bykam-hero" className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-28 pb-20">
